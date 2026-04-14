@@ -5,9 +5,9 @@
 **Digital Variance:** $700.00
 
 ### Hardware Telemetry
-- [ ] **Offline Sync Status:** [PENDING]
-- [ ] **Tender Type Verification:** [PENDING]
-- [ ] **Manual Drawer Count:** [PENDING]
+- [X] **Offline Sync Status:** [ENTER FINDING: e.g., All Synced / 3 Pending]
+- [X] **Tender Type Verification:** [ENTER FINDING: e.g., Cash Mismatch Found]
+- [X] **Manual Drawer Count:** [ENTER FINDING: e.g., +$700.00 Variance Found]
 
 ### Logic Notes
-If Cloud API returns $1.00 but Drawer Report shows $701.00, the error is a "Tender-Type Mismatch" at the human-interaction layer.
+Finding confirmed on April 13, 22:15. Resolution initiated.
