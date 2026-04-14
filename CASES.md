@@ -10,3 +10,9 @@
 ## Incident 002: Repository Public Transition
 **Status:** COMPLETE
 **Action:** Hardened `AxiomCore` for public visibility using **StepSecurity Harden-Runner** to prevent egress exfiltration of proprietary ArmstrongLogic.
+
+## Update: April 13, 2026 - 21:45
+**Action:** Diagnostic confirmed Single-Node binding (`L05B3TF9E0PJK`).
+**Observation:** Primary Ledger is verified EMPTY (save for $1.00 test).
+**Conclusion:** Revenue is external to this Merchant ID.
+**Next Phase:** Pivot to Aggregator SMTP Audit (Gmail) and Legacy Credential Check.
