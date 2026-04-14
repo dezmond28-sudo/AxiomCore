@@ -1,0 +1,29 @@
+name: "AxiomCore Security Sentinel"
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  secure-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner (Active Security Guard)
+        uses: step-security/harden-runner@v2
+        with:
+          egress-policy: block
+          allowed-endpoints: 
+            github.com:443
+            api.github.com:443
+            auth.docker.io:443
+            production.cloudflare.docker.com:443
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Perform Security Audit
+        run: |
+          echo "[ArmstrongLogic] Initiating automated security scan..."
+          # Add local security strikes here (e.g., bandit or safety)

@@ -1,0 +1,15 @@
+# ArmstrongLogic Sovereign Firewall
+.DS_Store
+*.env
+*.log
+__pycache__/
+.pytest_cache/
+
+# Diagnostic Scripts (Keep Local Only)
+dashboard.py
+leakage_audit.py
+pos_audit.py
+syntropic_mesh.py
+
+# Local State
+prophet_sync.json
