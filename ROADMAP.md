@@ -3,9 +3,10 @@
 ## Phase 7: The Foundation (COMPLETED)
 - [x] Harden M4 Local Node (Sentinel Guard)
 - [x] Deploy Prophet Module v4.4
-- [x] Stabilize Ottawa Hospitality Node (Infrastructure Only)
+- [x] Stabilize Ottawa Hospitality Node
 
 ## Phase 8: Systemic Expansion (IN PROGRESS)
-- [ ] **Phase 8.1: SMTP Intelligence Audit:** Identify external $700.00 revenue source via Gmail/SMTP.
+- [x] Phase 8.1: SMTP Intelligence Audit (NULL Result)
+- [ ] **Phase 8.2: Physical POS Audit:** Verify Offline Sync & Cash-Override states.
 - [ ] **I-80 Syntropic Mesh:** Bridge real-time logistics data with local MLX reasoning.
-- [ ] **Autonomous Revenue Capture:** Fully automate merchant-to-ledger reconciliation once source is identified.
+- [ ] **Project Sentinel:** Deploy secondary hardware nodes.
